@@ -5,6 +5,7 @@ export type User = {
   email: string | null;
   firstName: string | null;
   id: string;
+  isAdmin: boolean | null;
   lastName: string | null;
   roles: JsonValue;
   updatedAt: Date;
